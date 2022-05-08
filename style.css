@@ -1,0 +1,149 @@
+html,
+body {
+  height: auto;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  background: radial-gradient(circle at center, rgb(48, 48, 48), black);
+  color: white;
+}
+
+header {
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h3 {
+  padding: 15px;
+}
+header div {
+  display: flex;
+}
+
+header h4 {
+  padding: 15px;
+}
+
+#home {
+  box-shadow: 0 5px 20px black;
+  background-color: rgba(151, 151, 151, 0.247);
+  border-radius: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1 {
+  font-size: 90px;
+  margin: 0px;
+  margin-top: 50px;
+}
+
+.charactors {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.charactors img {
+  height: 420px;
+  width: 300px;
+  background-size: 100%;
+  /* filter: grayscale(50%); */
+}
+
+.title {
+  position: fixed;
+  margin: 0px;
+  font-size: 70px;
+  margin-top: 170px;
+  margin-left: -120px;
+  transform: rotate(-90deg);
+  color: antiquewhite;
+  visibility: hidden;
+  opacity: 0.8;
+}
+
+#science {
+  height: 420px;
+  width: 300px;
+}
+
+#science:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+#science:hover .title {
+  visibility: visible;
+}
+
+#science:hover img {
+  filter: grayscale(0%);
+}
+
+#education {
+  height: 420px;
+  width: 300px;
+}
+
+#education:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+#education:hover .title {
+  visibility: visible;
+}
+
+#education:hover img {
+  filter: grayscale(0%);
+}
+
+#art {
+  height: 420px;
+  width: 300px;
+}
+
+#art:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+#art:hover .title {
+  visibility: visible;
+}
+
+#art:hover img {
+  filter: grayscale(0%);
+}
+
+#volunteer {
+  height: 420px;
+  width: 300px;
+}
+
+#volunteer:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+  opacity: 1;
+}
+
+#volunteer:hover .title {
+  visibility: visible;
+}
+
+#volunteer:hover img {
+  filter: grayscale(0%);
+}

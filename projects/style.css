@@ -1,0 +1,237 @@
+html,
+body {
+  height: auto;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  background: radial-gradient(circle at center, rgb(48, 48, 48), black);
+  color: rgb(255, 255, 255);
+}
+
+header {
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h3 {
+  padding: 15px;
+}
+header div {
+  display: flex;
+}
+
+header h4 {
+  padding: 15px;
+}
+
+#project {
+  box-shadow: 0 5px 20px black;
+  background-color: rgba(128, 128, 128, 0.247);
+  border-radius: 10px;
+}
+
+h1,
+h2,
+p {
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.board {
+  max-width: 80%;
+  display: flex;
+}
+
+.board img {
+  max-width: 300px;
+}
+
+.board .box {
+  display: flex;
+}
+
+.board .box .card {
+  position: relative;
+  width: 400px;
+  max-height: 360px;
+  background: linear-gradient(to right, rgb(68, 68, 68), rgb(32, 32, 32));
+  box-shadow: 3px 5px 20px black;
+  border-radius: 30px;
+  top: 50px;
+  margin-left: -100px;
+  left: 20%;
+}
+
+.board .box .card:hover {
+  transform: translateY(-1rem) rotate(3deg);
+}
+
+.board .box .card:focus-within ~ .card,
+.board .box .card:hover ~ .card {
+  transform: translateX(100px);
+}
+
+.board .box .card h3 {
+  color: rgb(177, 177, 177);
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.board .box .card span {
+  color: gray;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.board .box .card .main {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.board .box .card .main img {
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 3px 5px 20px black;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.board .box .card .main h2 {
+  font-size: 30px;
+}
+
+.board .box .card p {
+  color: rgb(231, 87, 61);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.board .box .card .tag {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  top: 12%;
+  margin-left: 10px;
+
+  /* left: 50%;
+  transform: translate(-50%, 180%); */
+}
+
+.board .box .card .tag div {
+  height: 25px;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.board .box .card .tag div p {
+  color: rgb(226, 226, 226);
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.board .box .card7 {
+  position: relative;
+  width: 400px;
+  max-height: 360px;
+  background: linear-gradient(to right, rgb(68, 68, 68), rgb(32, 32, 32));
+  box-shadow: 3px 5px 20px black;
+  border-radius: 30px;
+  top: 50px;
+  margin-left: -300px;
+  left: 20%;
+}
+
+.board .box .card7:hover {
+  transform: translateY(-1rem) rotate(3deg);
+}
+
+.board .box .card7:focus-within ~ .card7,
+.board .box .card7:hover ~ .card7 {
+  transform: translateX(270px);
+}
+
+.board .box .card7 h3 {
+  color: rgb(177, 177, 177);
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.board .box .card7 span {
+  color: gray;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.board .box .card7 .main {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.board .box .card7 .main img {
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 3px 5px 20px black;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.board .box .card7 .main h2 {
+  font-size: 30px;
+}
+
+.board .box .card7 p {
+  color: rgb(231, 87, 61);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.board .box .card7 .tag {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  top: 12%;
+  margin-left: 10px;
+
+  /* left: 50%;
+  transform: translate(-50%, 180%); */
+}
+
+.board .box .card7 .tag div {
+  height: 25px;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.board .box .card7 .tag div p {
+  color: rgb(226, 226, 226);
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 0px;
+  margin-top: 0px;
+}
