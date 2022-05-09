@@ -23,8 +23,12 @@ week5.addEventListener("click", event=>{
     location.href = "assignments/week5.html"
 })
 
+let week7 = document.querySelector("#week7")
+week7.addEventListener("click", event=>{
+    location.href = "assignments/week7-motiongraphic.html"
+})
+
 let week10 = document.querySelector("#week10")
 week10.addEventListener("click", event=>{
-    alert("hahahahahah")
     location.href = "assignments/week10-game.html"
 })
