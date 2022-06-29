@@ -58,8 +58,31 @@ week5.addEventListener("click", event=>{
     location.href = "../volunteer/assignments/week5.html"
 })
 
-let Volunteer = document.querySelector("#Volunteer")
-Volunteer.addEventListener("click", event=>{
-    location.href = "../volunteer/photo.html"
+let week7 = document.querySelector("#week7")
+week7.addEventListener("click", event=>{
+    location.href = "../volunteer/assignments/week6-audio.html"
 })
+
+let week8 = document.querySelector("#week8")
+week8.addEventListener("click", event=>{
+    location.href = "../volunteer/assignments/week7-motiongraphic.html"
+})
+
+let week9 = document.querySelector("#week9")
+week9.addEventListener("click", event=>{
+    location.href = "../volunteer/assignments/week8-visualdesign.html"
+})
+let week10 = document.querySelector("#week10")
+week10.addEventListener("click", event=>{
+    location.href = "../volunteer/assignments/week10-game.html"
+})
+let week11 = document.querySelector("#week11")
+week11.addEventListener("click", event=>{
+    location.href = "../volunteer/assignments/week11-datavisualization.html"
+})
+let week12 = document.querySelector("#week12")
+week12.addEventListener("click", event=>{
+    location.href = "../volunteer/assignments/week12-instructionaldesign.html"
+})
+
 
