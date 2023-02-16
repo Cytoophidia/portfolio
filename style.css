@@ -147,3 +147,60 @@ main h1 {
 #volunteer:hover img {
   filter: grayscale(0%);
 }
+
+button{
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #43cea2, #185a9d);
+  color: whitesmoke;
+  position:relative;
+  text-decoration:none;
+  transition: .2s;
+  transform:ease-in-out;
+  will-change:transform;
+  z-index:0
+}
+
+button ::after{
+  background-color:whitesmoke;
+  border-radius:3rem;
+  display:block;
+  height:100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin:top left;
+  transition: .2s ;transform:ease-out;
+  will-change:transform;
+  z-index:-1
+}
+
+button:hover::after{
+  transform:translate(0, 0);
+}
+  
+button:hover
+{
+  background-image: linear-gradient(to right,#de6262, #ffb88c );
+  color:white;
+  transform: scale(1.05);
+  will-change: transform;
+}
+
+
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
