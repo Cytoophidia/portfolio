@@ -114,6 +114,7 @@ h1 {
   font-weight: 500;
   margin-left: 30px;
   margin-top: 20px;
+  padding-right: 20px;
 }
 
 .board .box .card .tag {
@@ -144,6 +145,7 @@ h1 {
   font-weight: 500;
   margin-left: 0px;
   margin-top: 0px;
+  padding-right: 0px;
 }
 
 .board .box .card7 {
@@ -204,6 +206,7 @@ h1 {
   font-weight: 500;
   margin-left: 30px;
   margin-top: 20px;
+  padding-right: 40px;
 }
 
 .board .box .card7 .tag {
@@ -234,4 +237,5 @@ h1 {
   font-weight: 500;
   margin-left: 0px;
   margin-top: 0px;
+  padding-right: 0px;
 }
