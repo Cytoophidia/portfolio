@@ -368,10 +368,11 @@ p span {
   transform: translate(-50%, 50%);
 }
 
-video{
+.videos{
   width: 100%;
   margin-top: 30px;
   border-radius: 30px;
+  border: none;
 }
 
 .highlightboard {
