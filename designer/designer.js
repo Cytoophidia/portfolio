@@ -13,6 +13,11 @@ project.addEventListener("click", event=>{
     location.href = "../projects/project.html"
 })
 
+let fruitech = document.querySelector("#Fruitech")
+fruitech.addEventListener("click", event=>{
+    location.href = "Fruitech.html"
+})
+
 let Divein = document.querySelector("#Divein")
 Divein.addEventListener("click", event=>{
     location.href = "Divein.html"
