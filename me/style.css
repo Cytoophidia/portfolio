@@ -72,3 +72,26 @@ main img {
   left: 45%;
   transform: translate(-50%, -50%);
 }
+
+
+.cut-off {
+  position: relative;
+  left: 10%;
+  height: 5px;
+  width: 80%;
+  background-color: gray;
+  opacity: 0.5;
+  border-radius: 30%;
+}
+
+.skills{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.skills img{
+  height: 100px;
+  border-radius: 20px;
+  margin: 0px 10px;
+}
