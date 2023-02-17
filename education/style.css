@@ -211,8 +211,8 @@ embed {
 }
 
 .board {
-  width: 85%;
-  padding: 35px 50px;
+  width: 60%;
+  padding: 35px 10%;
   background-color: rgb(34, 31, 51);
   border-radius: 30px;
   box-shadow: 3px 10px 30px rgb(0, 0, 0);
@@ -301,4 +301,21 @@ embed {
   left: 50%;
   margin-top: 30px;
   transform: translate(-50%, 0);
+}
+
+
+.back{
+  color: white;
+  position: relative;
+  height: 50px;
+  width: 120px;
+  border: solid 1px white;
+  font-size: 23px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 60px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
 }

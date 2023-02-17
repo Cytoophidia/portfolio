@@ -345,3 +345,20 @@ h2 {
   left: 50%;
   transform: translate(-50%, 50%);
 }
+
+
+.back{
+  color: white;
+  position: relative;
+  height: 50px;
+  width: 120px;
+  border: solid 1px white;
+  font-size: 23px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 60px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+}

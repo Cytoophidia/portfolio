@@ -86,6 +86,16 @@ h1 {
   margin-bottom: 30px;
 }
 
+.content {
+  /* height: 500px; */
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .project-list {
   height: 420px;
   width: 100%;
@@ -171,8 +181,8 @@ h1 {
 }
 
 .board {
-  width: 85%;
-  padding: 35px 50px;
+  width: 60%;
+  padding: 35px 10%;
   background-color: rgb(34, 31, 51);
   border-radius: 30px;
   box-shadow: 3px 10px 30px rgb(0, 0, 0);
@@ -227,16 +237,18 @@ video {
   transform: translate(-50%, 0);
 }
 
-#back {
+.back{
+  color: white;
   position: relative;
-  height: 35px;
-  width: 100px;
+  height: 50px;
+  width: 120px;
   border: solid 1px white;
   font-size: 23px;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: -20px;
+  margin-top: 60px;
   text-align: center;
   padding: 10px;
   border-radius: 10px;
+  background-color: transparent;
 }
