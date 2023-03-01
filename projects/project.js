@@ -58,10 +58,6 @@ Research.addEventListener("click", event=>{
     location.href = "../science/cytoophidia.html"
 })
 
-let week5 = document.querySelector("#week5")
-week5.addEventListener("click", event=>{
-    location.href = "../volunteer/assignments/week5.html"
-})
 
 let week7 = document.querySelector("#week7")
 week7.addEventListener("click", event=>{
@@ -80,10 +76,6 @@ week9.addEventListener("click", event=>{
 let week10 = document.querySelector("#week10")
 week10.addEventListener("click", event=>{
     location.href = "../volunteer/assignments/week10-game.html"
-})
-let week11 = document.querySelector("#week11")
-week11.addEventListener("click", event=>{
-    location.href = "../volunteer/assignments/week11-datavisualization.html"
 })
 let week12 = document.querySelector("#week12")
 week12.addEventListener("click", event=>{
