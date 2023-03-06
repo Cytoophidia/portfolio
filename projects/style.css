@@ -6,6 +6,22 @@ body {
   margin: 0px;
   background: radial-gradient(circle at center, rgb(48, 48, 48), black);
   color: rgb(255, 255, 255);
+
+}
+
+@font-face {
+  font-family: MyFont;
+  src: url(../Mynerve-Regular.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(../Ubuntu-Light.ttf);
+}
+
+@font-face {
+  font-family: Lora;
+  src: url(../Lora-VariableFont_wght.ttf);
 }
 
 header {
@@ -53,6 +69,7 @@ h1 {
   transform: rotate(-90deg);
   color: antiquewhite;
   opacity: 0.8;
+  font-family: Lora;
 }
 
 .mainbody{

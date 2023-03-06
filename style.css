@@ -6,6 +6,22 @@ body {
   margin: 0px;
   background: radial-gradient(circle at center, rgb(48, 48, 48), black);
   color: white;
+  font-family: Lora;
+}
+
+@font-face {
+  font-family: MyFont;
+  src: url(Mynerve-Regular.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(Ubuntu-Light.ttf);
+}
+
+@font-face {
+  font-family: Lora;
+  src: url(Lora-VariableFont_wght.ttf);
 }
 
 header {
@@ -42,6 +58,7 @@ main h1 {
   font-size: 90px;
   margin: 0px;
   margin-top: 50px;
+  font-family: Myfont;
 }
 
 .charactors {
@@ -244,7 +261,7 @@ footer{
 }
 
 .footfont{
-  font-family: ans-serif;
+  /* font-family: ans-serif; */
   color: rgb(174, 174, 174);
 }
 
