@@ -18,6 +18,11 @@ fruitech.addEventListener("click", event=>{
     location.href = "Fruitech.html"
 })
 
+let xdistraction = document.querySelector("#Xdistraction")
+xdistraction.addEventListener("click", event=>{
+    location.href = "Xdistraction.html"
+})
+
 let Divein = document.querySelector("#Divein")
 Divein.addEventListener("click", event=>{
     location.href = "Divein.html"

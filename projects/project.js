@@ -28,9 +28,9 @@ Innolab.addEventListener("click", event=>{
     location.href = "../designer/Innolab.html"
 })
 
-let Artset = document.querySelector("#Artset")
-Artset.addEventListener("click", event=>{
-    location.href = "../designer/Artset.html"
+let xdistraction = document.querySelector("#Xdistraction")
+xdistraction.addEventListener("click", event=>{
+    location.href = "../designer/Xdistraction.html"
 })
 
 let XNOVICE = document.querySelector("#XNOVICE")
