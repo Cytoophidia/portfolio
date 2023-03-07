@@ -6,17 +6,17 @@ body {
   margin: 0px;
   background: radial-gradient(circle at center, rgb(48, 48, 48), black);
   color: white;
-  font-family: Lora;
+  font-family:Robot;
 }
 
 @font-face {
-  font-family: MyFont;
-  src: url(Mynerve-Regular.ttf);
+  font-family: Robot;
+  src: url(RobotoSlab-ExtraLight.ttf);
 }
 
 @font-face {
-  font-family: Ubuntu;
-  src: url(Ubuntu-Light.ttf);
+  font-family: Aquafont;
+  src: url(aqua.ttf);
 }
 
 @font-face {
@@ -45,6 +45,8 @@ header h4 {
   box-shadow: 0 5px 20px black;
   background-color: rgba(151, 151, 151, 0.247);
   border-radius: 10px;
+  font-family: Aquafont;
+  /* padding-bottom: -10px; */
 }
 
 main {
@@ -58,7 +60,8 @@ main h1 {
   font-size: 90px;
   margin: 0px;
   margin-top: 50px;
-  font-family: Myfont;
+  font-weight: 400;
+  font-family: Aquafont;
 }
 
 .charactors {
@@ -171,7 +174,8 @@ button{
   font-size: 20px;
   margin-left: 100px;
   margin-right: 100px;
-  font-family: sans-serif;
+  padding-top: 5px;
+  font-family: Aquafont;
   border: none;
   border-radius: 8px;
   background-image: linear-gradient(to right, #43cea2, #185a9d);
