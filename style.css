@@ -87,6 +87,7 @@ main h1 {
   color: antiquewhite;
   visibility: hidden;
   opacity: 0.8;
+  font-family: aquafont;
 }
 
 #science {

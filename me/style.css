@@ -8,6 +8,20 @@ body {
   color: white;
 }
 
+@font-face {
+  font-family: Robot;
+  src: url(../RobotoSlab-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Aquafont;
+  src: url(../aqua.ttf);
+}
+
+p{
+  font-family: Robot;
+}
+
 header {
   padding: 0 5%;
   display: flex;
@@ -17,6 +31,7 @@ header {
 
 header h3 {
   padding: 15px;
+  font-family: Aquafont;
 }
 header div {
   display: flex;
@@ -24,6 +39,8 @@ header div {
 
 header h4 {
   padding: 15px;
+  padding-top: 17px;
+  font-family: Aquafont;
 }
 
 #about {
@@ -52,6 +69,7 @@ main {
 main img {
   max-height: 500px;
   display: block;
+  border-radius: 20px;
   box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.589);
 }
 
@@ -71,6 +89,7 @@ main img {
   margin-top: 100px;
   left: 45%;
   transform: translate(-50%, -50%);
+  font-family: Aquafont;
 }
 
 
@@ -82,6 +101,11 @@ main img {
   background-color: gray;
   opacity: 0.5;
   border-radius: 30%;
+}
+
+.skill-section{
+  /* margin-top: 40px; */
+  font-family: aquafont;
 }
 
 .skills{
