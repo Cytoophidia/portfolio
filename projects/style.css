@@ -6,17 +6,18 @@ body {
   margin: 0px;
   background: radial-gradient(circle at center, rgb(48, 48, 48), black);
   color: rgb(255, 255, 255);
+  font-family: Robot;
 
 }
 
 @font-face {
-  font-family: MyFont;
-  src: url(../Mynerve-Regular.ttf);
+  font-family: Robot;
+  src: url(../RobotoSlab-ExtraLight.ttf);
 }
 
 @font-face {
-  font-family: Ubuntu;
-  src: url(../Ubuntu-Light.ttf);
+  font-family: Aquafont;
+  src: url(../aqua.ttf);
 }
 
 @font-face {
@@ -38,13 +39,15 @@ header div {
 }
 
 header h4 {
-  padding: 15px;
+  padding: 17px;
 }
 
 #project {
   box-shadow: 0 5px 20px black;
   background-color: rgba(128, 128, 128, 0.247);
   border-radius: 10px;
+  font-family: aquafont;
+  padding-top: 17px;
 }
 
 h1,
@@ -53,10 +56,16 @@ p {
   margin: 0px;
 }
 
+h2{
+  font-family: aquafont;
+}
+
+
 h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 80px;
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .title {
@@ -69,7 +78,7 @@ h1 {
   transform: rotate(-90deg);
   color: antiquewhite;
   opacity: 0.8;
-  font-family: Lora;
+  font-family: aquafont;
 }
 
 .mainbody{
@@ -94,13 +103,13 @@ h1 {
 
 .board .box .card {
   position: relative;
-  width: 400px;
+  width: 430px;
   max-height: 360px;
   background: linear-gradient(to right, rgb(68, 68, 68), rgb(32, 32, 32));
   box-shadow: 3px 5px 20px black;
   border-radius: 30px;
   top: 50px;
-  margin-left: -200px;
+  margin-left: -230px;
   left: 20%;
 }
 
@@ -110,7 +119,7 @@ h1 {
 
 .board .box .card:focus-within ~ .card,
 .board .box .card:hover ~ .card {
-  transform: translateX(180px);
+  transform: translateX(210px);
 }
 
 .board .box .card h3 {
@@ -145,8 +154,8 @@ h1 {
 }
 
 .board .box .card p {
-  color: rgb(231, 87, 61);
-  font-size: 18px;
+  color: rgb(252, 122, 126);
+  font-size: 16px;
   font-weight: 500;
   margin-left: 30px;
   margin-top: 20px;
@@ -186,13 +195,13 @@ h1 {
 
 .board .box .card7 {
   position: relative;
-  width: 400px;
+  width: 430px;
   max-height: 360px;
   background: linear-gradient(to right, rgb(68, 68, 68), rgb(32, 32, 32));
   box-shadow: 3px 5px 20px black;
   border-radius: 30px;
   top: 50px;
-  margin-left: -300px;
+  margin-left: -330px;
   left: 20%;
 }
 
@@ -202,7 +211,7 @@ h1 {
 
 .board .box .card7:focus-within ~ .card7,
 .board .box .card7:hover ~ .card7 {
-  transform: translateX(270px);
+  transform: translateX(300px);
 }
 
 .board .box .card7 h3 {
@@ -237,8 +246,8 @@ h1 {
 }
 
 .board .box .card7 p {
-  color: rgb(231, 87, 61);
-  font-size: 18px;
+  color: rgb(252, 122, 126);
+  font-size: 16px;
   font-weight: 500;
   margin-left: 30px;
   margin-top: 20px;
@@ -275,3 +284,4 @@ h1 {
   margin-top: 0px;
   padding-right: 0px;
 }
+
