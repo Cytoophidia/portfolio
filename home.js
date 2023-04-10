@@ -27,3 +27,8 @@ let project = document.querySelector("#project")
 project.addEventListener("click", event=>{
     location.href = "projects/project.html"
 })
+
+let UI = document.querySelector("#UI")
+UI.addEventListener("click", event=>{
+    location.href = "UI.html"
+})

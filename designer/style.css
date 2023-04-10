@@ -393,3 +393,49 @@ p span {
   padding-bottom: 12px;
   text-align: left;
 }
+
+.UIframe{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+}
+
+
+.UIboard{
+  width: 30%;
+  height: 700px;
+  padding: 35px;
+  background-color: rgb(48, 47, 55);
+  border-radius: 30px;
+  box-shadow: 3px 10px 30px rgb(0, 0, 0);
+  margin: 30px;
+}
+
+.UIboard h3{
+  font-size: xx-large;
+}
+
+.inspiration{
+  background-image: linear-gradient(to right,#bdc3c7 , #2c3e50);
+  color:white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inspiration img{
+  width: 50px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.logo{
+  height: 60px;
+  border-radius: 10px;
+}
