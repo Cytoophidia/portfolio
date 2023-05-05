@@ -18,10 +18,10 @@ DiveIn.addEventListener("click", event=>{
     location.href = "../designer/Divein.html"
 })
 
-let Fruitech = document.querySelector("#Fruitech")
-Fruitech.addEventListener("click", event=>{
-    location.href = "../designer/Fruitech.html"
-})
+// let Fruitech = document.querySelector("#Fruitech")
+// Fruitech.addEventListener("click", event=>{
+//     location.href = "../designer/Fruitech.html"
+// })
 
 let Innolab = document.querySelector("#Innolab")
 Innolab.addEventListener("click", event=>{
