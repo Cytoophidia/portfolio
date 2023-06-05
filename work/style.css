@@ -43,6 +43,24 @@ header img{
     padding: 15px;
 }
 
+#project:hover{
+    background-image: linear-gradient(to right,white,white );
+    /* box-shadow:inset 0 5px 20px rgba(0, 0, 0, 0.714); */
+    color:black;
+    transform: scale(1.05);
+    will-change: transform;
+    border-radius: 50px;
+}
+
+#about:hover{
+    background-image: linear-gradient(to right,white,white );
+    /* border: solid 2px white; */
+    color:black;
+    transform: scale(1.05);
+    will-change: transform;
+    border-radius: 50px;
+}
+
 #home {
   box-shadow:inset 0 5px 20px rgba(0, 0, 0, 0.714);
   background-color: rgba(151, 151, 151, 0.247);
@@ -99,6 +117,8 @@ main {
     text-align: center;
     border: solid 2px white;
     border-radius: 30px;
+    color: white;
+    text-decoration: none;
 }
 
 #name span{
@@ -120,8 +140,8 @@ main {
 }
 
 #resume:hover{
-  background-image: linear-gradient(to right,black, black );
-  color:white;
+    background-image: linear-gradient(to right,white, white );
+    color:black;
   transform: scale(1.05);
   will-change: transform;
 }
@@ -132,6 +152,8 @@ main {
     transform: scale(1.05);
     will-change: transform;
   }
+
+
 
 .me{
     width:100%;
@@ -170,7 +192,7 @@ main {
     margin: 0px 10px 0px 0px;
 }
 
-.ProjectBoard{
+#ProjectBoard{
     font-family: "sofia-pro", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -227,6 +249,12 @@ main {
     border-radius: 20px;
 }
 
+.card:hover{
+    transform: scale(1.05);
+    will-change: transform;
+    background-color: #3e3e3e;
+  }
+
 .card img{
     width: 90%;
     border-radius: 20px;
@@ -275,7 +303,7 @@ main {
 }
 
 footer{
-  height: 100px;
+  height: 70px;
   margin-top: 80px;
   padding: 20px;
   box-shadow: 3,3,;
@@ -320,4 +348,48 @@ li a {
 li a:hover{
     color: #ffcbd7;
     text-shadow: 0 0 20px #FF84A1;
+}
+
+.navi{
+    position: fixed;
+    right: 0px;
+    bottom: 20%;
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#top{
+    display: none;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding: 3px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: "sofia-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: none;
+}
+
+#top:hover{
+    transform: scale(1.1);
+    will-change: transform;
+}
+
+.hover{
+    color: #9682DC;
+}
+
+.hover:hover{
+    transform: scale(1.1);
+    will-change: transform;
+    color: #FF84A1;
+    text-shadow: 0 0 20px #ffffff;
 }

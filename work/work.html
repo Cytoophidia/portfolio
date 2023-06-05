@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/libs/animate.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -25,15 +26,15 @@
     </header>
     <main>
         <div class="hero">
-            <p style="font-size: 50px; color: rgb(176, 184, 190);z-index: 3; margin-top: 8%;">Hi, I'm</p>
-            <p style="font-size: 100px; color: rgb(255, 255, 255); z-index: 3; margin-top: -20px;" id="name">Fan Eva Xia</p>
-            <p style="font-size: 30px; color: rgb(255, 255, 255);z-index: 3; margin-top: -10px;">A <span style="color: #FF84A1;">UX/UI Designer</span>  From <span style="color: #9682DC;"> New York</span></p>
+            <p style="font-size: 50px; color: rgb(176, 184, 190);z-index: 3; margin-top: 8%;" class="wow fadeIn" data-wow-delay="1s">Hi, I'm</p>
+            <p style="font-size: 100px; color: rgb(255, 255, 255); z-index: 3; margin-top: -20px;" id="name" >Fan Eva Xia</p>
+            <p style="font-size: 30px; color: rgb(255, 255, 255);z-index: 3; margin-top: -10px;" class="wow fadeIn" data-wow-delay="1s">A <span style="color: #FF84A1;">UX/UI Designer</span>  From <span style="color: #9682DC;"> New York</span></p>
             <div class="hero_button" style="z-index: 3; font-size: 20px;">
-                <div id="resume" class="wow fadeInLeftBig"> Download Resume</div>
-                <div id="projects" class="wow fadeInRightBig"> View Projects</div>
+                <div id="resume" class="wow fadeInLeftBig" data-wow-delay="2s"> Download Resume</div>
+                <a id="projects" class="wow fadeInRightBig" href="#ProjectBoard" data-wow-delay="2s"> View Projects</a>
             </div>
-            <img src="pic/down button.png" alt="down" class="wow fadeInDown" style="margin-top: 5%;z-index: 3; ">
-            <img src="pic/Herobg.png" alt="hero" style="width: 100%; opacity: 0.3; z-index: 0;" id="heroBG">
+            <img src="pic/down button.png" alt="down" class="wow fadeInDown" data-wow-delay="3s" style="margin-top: 5%;z-index: 3; ">
+            <img src="pic/Herobg2.png" alt="hero" style="width: 100%; opacity: 0.3; z-index: 0;" id="heroBG">
         </div>
 
         <div class="me">
@@ -61,50 +62,51 @@
             </div>
             <img src="pic/Graphic.png" alt="graphic" style="width: 50%;" class="wow fadeInRightBig">
         </div>
-        <div class="ProjectBoard">
+        <div id="ProjectBoard">
             <div class="title">
                 <div class="cut-off"></div>
                 <h1 style="font-size: 50px;">Featured Projects</h1>
                 <div class="cut-off"></div>
             </div>
             <div class="board">
-                <div class="card wow fadeInLeftBig">
+                <div class="card wow fadeInLeftBig" onclick = "window.location.href='../designer/Xdistraction.html';">
                     <img src="pic/Xdistraction_app.png" alt="Xdistractionpic">
                     <div class="content">
                         <p style="font-size: 30px;">Xdistraction</p>
                         <p style="font-size: 18px; color: #FF84A1;">UX Research, UX/UI, Learning Theory</p>
                         <p style="font-size: 18px; color: #CBCBCB;">An mobile app empower learners in enhancing focus, minimizing distractions, and maximizing learning efficiency.</p>
-                        <button onclick = "window.location.href='../designer/Xdistraction.html';">View Project</button>
+                        <button>View Project</button>
                     </div>
                 </div>
-                <div class="card wow fadeInRightBig">
+                <div class="card wow fadeInRightBig" onclick = "window.location.href='../designer/Divein.html';">
                     <img src="pic/DiveIn_app.png" alt="DiveIn">
                     <div class="content">
                         <p style="font-size: 30px;">DiveIn</p>
                         <p style="font-size: 18px; color: #FF84A1;">UX Research, UX/UI</p>
                         <p style="font-size: 18px; color: #CBCBCB;">A set of app-based solutions about how can we help international students to adjust to living in NYC easier.</p>
-                        <button onclick = "window.location.href='../designer/Divein.html';">View Project</button>
+                        <button>View Project</button>
                     </div>
                 </div>
-                <div class="card wow fadeInLeftBig">
+                <div class="card wow fadeInLeftBig" onclick = "window.location.href='../designer/Innolab.html';">
                     <img src="pic/Innolad_app.png" alt="Innolab">
                     <div class="content">
                         <p style="font-size: 30px;">Innolab</p>
                         <p style="font-size: 18px; color: #FF84A1;">Product Design, Financial Analysis</p>
                         <p style="font-size: 18px; color: #CBCBCB;">Product design on how to make it easier for people to wash their underwear and financial analysis using data from Haier Shanghai and user data from college students</p>
-                        <button onclick = "window.location.href='../designer/Innolab.html';">View Project</button>
+                        <button>View Project</button>
                     </div>
                 </div>
-                <div class="card wow fadeInRightBig">
+                <div class="card wow fadeInRightBig" onclick = "window.location.href='../designer/Fruitech.html';">
                     <img src="pic/Fruitech_app.png" alt="fruitech_app">
                     <div class="content">
                         <p style="font-size: 30px;">Fruitech</p>
                         <p style="font-size: 18px; color: #FF84A1;">Field Research, Entrepreneurship</p>
                         <p style="font-size: 18px; color: #CBCBCB;">Fruitech is a platform dedicated to helping farmers in less developed areas in China sell their fresh agricultural produce more efficiently and directly. </p>
-                        <button onclick = "window.location.href='../designer/Fruitech.html';">View Project</button>
+                        <button>View Project</button>
                     </div>
                 </div>
             </div>
+            <div style="text-align: center; font-size: 30px; margin-top: 40px;">Check out the rest of <span class="hover" onclick="window.location.href='../projects/project.html'">my work</span>!</div>
         </div>
 
         <div class="title">
@@ -131,6 +133,14 @@
                     <img src="https://pp.myapp.com/ma_icon/0/icon_54066899_1676338235/256" alt="bijian">
                 </div>
             </div>
+        </div>
+        <div class="navi">
+            <div onclick="topFunction()" id="top">
+                <i class="fa-regular fa-arrow-up-to-line" style="color: #ffffff;"></i>
+                <i class="fas fa-cloud"></i>
+                <div>Back to Top</div>
+            </div>
+            <!-- <a href="#bottom">Bottom</a> -->
         </div>
     </main>
     <footer>
