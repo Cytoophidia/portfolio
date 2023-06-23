@@ -1,6 +1,6 @@
 let home = document.querySelector("#home")
 home.addEventListener("click", event=>{
-    location.href = "../Home.html"
+    location.href = "../work/work.html"
 })
 
 let project = document.querySelector("#project")
