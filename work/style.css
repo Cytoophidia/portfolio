@@ -44,20 +44,14 @@ header img{
 }
 
 #project:hover{
-    background-image: linear-gradient(to right,white,white );
-    /* box-shadow:inset 0 5px 20px rgba(0, 0, 0, 0.714); */
+    background-color: white;
     color:black;
-    transform: scale(1.05);
-    will-change: transform;
     border-radius: 50px;
 }
 
 #about:hover{
-    background-image: linear-gradient(to right,white,white );
-    /* border: solid 2px white; */
+    background-color: white;
     color:black;
-    transform: scale(1.05);
-    will-change: transform;
     border-radius: 50px;
 }
 
@@ -198,6 +192,8 @@ main {
     font-style: normal;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title{

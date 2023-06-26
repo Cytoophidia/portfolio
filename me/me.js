@@ -5,7 +5,7 @@ home.addEventListener("click", event=>{
 
 let project = document.querySelector("#project")
 project.addEventListener("click", event=>{
-    location.href = "../projects/project.html"
+    location.href = "../Projects_new/projects.html"
 })
 
 let resume = document.querySelector("#resume")
