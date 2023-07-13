@@ -9,6 +9,21 @@ body {
   min-width: 390px;
 }
 
+@font-face {
+  font-family: Robot;
+  src: url(RobotoSlab-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Aquafont;
+  src: url(../aqua.ttf);
+}
+
+@font-face {
+  font-family: Lora;
+  src: url(Lora-VariableFont_wght.ttf);
+}
+
 header {
   padding: 0 5%;
   display: flex;
