@@ -43,10 +43,24 @@ header img{
     padding: 15px;
 }
 
+#project{
+    font-family: Aquafont; 
+    padding-bottom:10px;
+}
+
 #project:hover{
     background-color: white;
     color:black;
     border-radius: 50px;
+}
+
+#index{
+    margin-right: -150px;
+}
+
+#about{
+    font-family: Aquafont; 
+    padding-bottom:10px;
 }
 
 #about:hover{
@@ -82,17 +96,28 @@ main {
     font-style: normal;
 }
 
-.hero p{
+/* .hero p{
     margin: 0px;
-}
+} */
 
 #heroBG{
     position: absolute;
     top: 100px;
+    width: 100%; 
+    opacity: 0.3; 
+    z-index: 0;
 }
 
 .hero_button{
     display: flex;
+}
+
+.hi{
+    font-size: 50px; 
+    color: rgb(176, 184, 190);
+    z-index: 3; 
+    margin-top: 8%;
+    margin-bottom: 0px;
 }
 
 #resume{
@@ -115,12 +140,27 @@ main {
     text-decoration: none;
 }
 
+#name{
+    font-size: 100px; 
+    color: rgb(255, 255, 255); 
+    z-index: 3; 
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
 #name span{
     display: inline-block;
     animation: 1s jump;
     animation-timing-function: ease-in-out;
     animation-delay: var(--delay);
     animation-iteration-count: 1;
+}
+
+.designer{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    z-index: 3; 
+    margin-top: -10px;
 }
 
 @keyframes jump{
@@ -163,6 +203,18 @@ main {
     font-style: normal;
 }
 
+.meTitle{
+    font-size: 40px; 
+    line-height: 45px;
+}
+
+.meContent{
+    font-size: 20px; 
+    color: rgb(176, 184, 190); 
+    line-height: 25px; 
+    margin-top: -25px;
+}
+
 #tags{
     margin-top: 20px;
     display: flex;
@@ -186,6 +238,10 @@ main {
     margin: 0px 10px 0px 0px;
 }
 
+.mepic{
+    width: 50%;
+}
+
 #ProjectBoard{
     font-family: "sofia-pro", sans-serif;
     font-weight: 400;
@@ -205,6 +261,10 @@ main {
     font-family: "sofia-pro", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.title h1{
+    font-size: 50px;
 }
 
 .cut-off {
@@ -540,3 +600,177 @@ li a:hover{
     opacity: 1;
     transform: translateY(120px);
 }
+
+.more{
+    text-align: center; 
+    font-size: 30px; 
+    margin-top: 140px;
+}
+
+
+
+
+@media screen and (max-width: 797px) {
+    html,
+    body {
+    height: auto;
+    max-width: 797;
+    padding: 0px;
+    margin: 0px;
+    background: radial-gradient(circle at center, rgb(48, 48, 48), black);
+    color: white;
+    font-family:Robot;
+    }
+    #home{
+        display: none;
+    }
+    header{
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #about{
+        display: none;
+    }
+    #project{
+        display: none;
+    }
+    #index{
+        margin-right: 0px;
+    }
+    .hero{
+        width: 100%;
+        padding: 30px;
+        margin-top: 10%;
+    }
+
+    .hi{
+        width: inherit;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 10%;
+    }
+    #name{
+        width: inherit;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 10%;
+    }
+    .designer{
+        width: inherit;
+        text-align: center;
+        font-size: 20px;
+        word-wrap:break-word; 
+    }
+    #heroBG{
+        max-height:100%;
+        width: auto;
+    }
+    .hero_button{
+        width: inherit;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20%;
+    }
+    #resume,#projects{
+        width: 140px;
+        margin: 20px;
+        padding: 10px 30px 10px;
+        font-size: 14px;
+    }
+
+    .me{
+        flex-direction: column;
+    }
+
+    .meTitle{
+        font-size: 28px;
+    }
+
+    .meContent{
+        font-size: 16px;
+        margin-bottom: 5%;
+    }
+
+    .tag{
+        font-size: 14px;
+        padding: 0px 15px 0px;
+    }
+
+    .tag img{
+        width: 25px;
+    }
+
+    .tag p{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .mepic{
+        position: relative;
+        width: 80%;
+        right: -50px;
+    }
+    .title h1{
+        width: auto;
+        font-size: 30px;
+    }
+    .cut-off{
+        display: none;
+    }
+
+    .card-new{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section{
+        height: auto;
+
+    }
+
+    .card-role{
+        width: 400px;
+        height: auto;
+    }
+    .card-bg{
+        display: none;
+    }
+    .blur{
+        display: none;
+    }
+    .content{
+        width: 70%;
+        opacity: 1;
+        position: relative;
+        margin-top: 0px;
+        
+    }
+    .content h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .content h3{
+        font-size: 16px;
+        text-align: center;
+    }
+    .content p{
+        font-size: 16px;
+        text-align:center;
+    }
+
+    .more{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    
+
+  }
