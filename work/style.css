@@ -25,6 +25,7 @@ body {
 }
 
 header {
+    width: inherit;
   padding: 10px 5%;
   display: flex;
   justify-content: space-between;
@@ -607,7 +608,9 @@ li a:hover{
     margin-top: 140px;
 }
 
-
+.contact{
+    display: none;
+}
 
 
 @media screen and (max-width: 797px) {
@@ -667,7 +670,10 @@ li a:hover{
     }
     #heroBG{
         max-height:100%;
-        width: auto;
+        width: inherit;
+        height: 80%;
+        object-fit: cover;
+        object-position: -140px 0px;
     }
     .hero_button{
         width: inherit;
@@ -683,21 +689,39 @@ li a:hover{
     }
 
     .me{
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .meTitle{
-        font-size: 28px;
+        font-size: 24px;
+        line-height: normal;
+        width: 85%;
     }
 
     .meContent{
+        width: 85%;
         font-size: 16px;
         margin-bottom: 5%;
+    }
+
+    #tags{
+        width: 85%;
     }
 
     .tag{
         font-size: 14px;
         padding: 0px 15px 0px;
+
     }
 
     .tag img{
@@ -712,7 +736,6 @@ li a:hover{
     .mepic{
         position: relative;
         width: 80%;
-        right: -50px;
     }
     .title h1{
         width: auto;
@@ -771,6 +794,61 @@ li a:hover{
         margin-top: 40px;
     }
 
-    
+    .skill-section{
+        width: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .skill-section h2{
+        font-size: 20px;
+    }
+
+    .skills{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .skills img{
+        height: 50px;
+        border-radius: 20px;
+        margin: 10px 10px;
+    }
+    .navi{
+        display: none;
+    }
+
+    .footfont{
+        display: none;
+    }
+
+    footer{
+        width: inherit;
+        display: flex;
+        justify-content: center;
+    }
+    .logos li a{
+        text-align: center;
+    }
+
+    .contact{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .contact h3{
+        font-family: "sofia-pro", sans-serif;
+        font-size: 24px;
+    }
+
+    .contact a{
+        font-family: "sofia-pro", sans-serif;
+        font-size: 16px;
+        color: #9682DC;
+    }
   }
