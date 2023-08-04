@@ -7,7 +7,7 @@ document.querySelectorAll('span').forEach((span, index) => {
 
 let resume = document.querySelector("#resume")
 resume.addEventListener("click", event=>{
-    location.href = "ID_FanXia_0707.pdf"
+    location.href = "ID_FanXia_0724.pdf"
 })
 
 // let home = document.querySelector("#index")
